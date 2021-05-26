@@ -13,7 +13,7 @@ import {
 const HomePage = () => {
   
   return (
-    <h2>gatsby airtable starter</h2>
+    <h2>home page</h2>
   )
 }
 
