@@ -9,29 +9,29 @@ export default [
   {
     id: 1,
     icon: <GiCompass className="icon" />,
-    label: "mission",
+    label: "missão",
     text:
-      " Activated charcoal post-ironic unicorn flexitarian tumeric, direct trade man bun mumblecore kickstarter art party. ",
+      " Carvão ativado pós-irônico unicórnio flexitarista cúrcuma, comércio direto man bun mumblecore kickstarter arte festa. ",
   },
   {
     id: 2,
     icon: <GiDiamondHard className="icon" />,
-    label: "vision",
+    label: "visão",
     text:
-      " Brooklyn mustache polaroid neutra. Wolf subway tile gluten-free bushwick, godard letterpress pitchfork direct trade put a bird on",
+      " Lobo do metrô Wolf sem glúten bushwick, godard letterpress pitchfork comércio direto colocar um pássaro",
   },
   {
     id: 3,
     icon: <GiStabbedNote className="icon" />,
-    label: "history",
+    label: "historia",
     text:
-      "Chia pinterest locavore letterpress tote bag. Subway tile PBR&B knausgaard locavore quinoa four loko disrupt photo booth hella.",
+      "Sacola tipográfica Chia pinterest Locavore. Ladrilho do metrô PBR & B knausgaard locavore quinoa quatro loko atrapalham a cabine fotográfica hella.",
   },
   {
     id: 4,
     icon: <GiBriefcase className="icon" />,
-    label: "work",
+    label: "Trabalho",
     text:
-      "Man braid banh mi prism disrupt hella cray mlkshk jean shorts typewriter synth salvia direct trade pabst knausgaard.",
+      "Homem trança banh mi prisma interromper hella cray mlkshk shorts jeans máquina de escrever sintetizador sálvia comércio direto pabst knausgaard.",
   },
 ]

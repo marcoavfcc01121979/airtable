@@ -7,7 +7,29 @@ import NavLink from './NavLink'
 import { GatsbyContext } from '../context/context'
 const Navbar = () => {
   return (
-   <h2>navbar component</h2>
+   <Wrapper>
+     <div className="nav-center">
+        <div className="nav-header">
+          <Link to="/">
+            <img src={logo} alt="design"></img>
+            <button className="toggle-btn">
+              <GoThreeBars />
+            </button>
+          </Link>
+        </div>
+        <ul className="nav-links">
+          <li>
+            <button>produtos</button>
+          </li>
+          <li>
+            <button>desenvolvedores</button>
+          </li>
+          <li>
+            <button>empresa</button>
+          </li>
+        </ul>
+      </div>
+   </Wrapper>
   )
 }
 
