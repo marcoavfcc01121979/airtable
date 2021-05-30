@@ -21,10 +21,14 @@ const Projects = ({ projects: data, title, page }) => {
             <article key={id}>
               <div className="container">
                 <GatsbyImage
-                  image={getImage(image.localFiles[0])}
+                  image={getImage(image && image.localFiles[0])}
                   alt={name}
                   className="img"
                 ></GatsbyImage>
+                <div className="info">
+                  <p>- {type} -</p>
+                  <h3>{name}</h3>
+                </div>
               </div>
             </article>
           )
