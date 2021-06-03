@@ -12,6 +12,7 @@ const Projects = ({ projects: data, title, page }) => {
   const setBackToAll = () => {
     setProjects(data)
   }
+  //console.log(projects)
 
   return (
     <Wrapper className="section">
