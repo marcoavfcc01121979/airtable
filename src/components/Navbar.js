@@ -25,7 +25,7 @@ const Navbar = () => {
             <button>desenvolvedores</button>
           </li>
           <li>
-            <button>empresa</button>
+            <Link to="/products/payments">empresa</Link>
           </li>
         </ul>
       </div>
